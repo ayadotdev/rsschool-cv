@@ -1,1 +1,1 @@
-# rsschool-cv
+ https://AyaDesigner.github.io/rsschool-cv/cv
