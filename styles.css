@@ -1,9 +1,9 @@
- .main-container,
+.main-container,
 .profile-info-container {
   padding: 0.5em;
   width: 60%;
   margin-left: 20%;
-} 
+}
 
 .header-container {
   height: 200px;
@@ -39,7 +39,7 @@
 
 .right-container {
   background-color: rgb(255, 255, 255);
-  margin-left:5%;;
+  margin-left: 5%;
 }
 
 .profile-info {
@@ -48,36 +48,47 @@
   width: 70%;
 }
 
-
 .profile-info-title > * {
   display: inline-block;
-  padding-bottom:2px;
-  margin:5px;
+  padding-bottom: 2px;
+  margin: 5px;
 }
 
 .interests-title > * {
   display: inline-block;
-  padding-bottom:2px;
-  margin:5px;
+  padding-bottom: 2px;
+  margin: 5px;
   margin-bottom: 20px;
+  margin-top: 10px;
 
+}
 
+.reference-title > * {
+  display: inline-block;
+  padding-bottom: 2px;
+  margin: 5px;
+  margin-top: 20px;
+}
+
+.awards-title > * {
+  display: inline-block;
+  padding-bottom: 2px;
+  margin: 5px;
+  margin-top: 30px;
 }
 
 .interests-icons > * {
   display: inline-block;
-
 }
 
 .interests-icons i {
   font-size: 18px;
-  color:#5f6cab;
+  color: #5f6cab;
   padding-top: 10px;
   vertical-align: middle;
- 
 }
-.category{
-  margin:5px;
+.category {
+  margin: 5px;
 }
 
 .interest-circle {
@@ -86,25 +97,8 @@
   border-radius: 50%;
   border: 5px solid #5f6cab;
   text-align: center;
-
 }
 
-
-.reference-title > * {
-  display: inline-block;
-  padding-bottom:2px;
-  margin:5px;
-
-
-}
-
-.awards-title > * {
-  display: inline-block;
-  padding-bottom:2px;
-  margin:5px;
-
-
-}
 
 
 .circle-briefcase {
@@ -119,14 +113,10 @@
   margin-right: 10px;
   font-size: 12px;
   padding-left: 10px;
-  padding-top:5px;
+  padding-top: 5px;
 
   color: white;
 }
-
-
-
-/* timeline */
 
 .timeline {
   position: relative;
@@ -142,6 +132,8 @@
   top: 0;
   bottom: 0;
   left: 16px;
+  height: 50%;
+  margin-top: 40px;
 }
 
 div.event {
@@ -160,6 +152,8 @@ div.event::after {
   position: absolute;
   top: 20%;
   left: -45px;
+  margin-top: 7px;
+
 }
 
 .text {
@@ -186,6 +180,7 @@ div.event::after {
 
 .portfolio-title h4 {
   margin-left: 10px;
+  margin-top: 35px;
 }
 
 .portfolio-boxes {
@@ -223,5 +218,5 @@ div.event::after {
 .footer-text {
   margin-left: 50px;
   padding-top: 5px;
-  color:white;
+  color: white;
 }
