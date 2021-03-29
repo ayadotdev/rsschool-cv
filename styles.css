@@ -1,8 +1,9 @@
-.main-container,
+ .main-container,
 .profile-info-container {
   padding: 0.5em;
-  width: 80%;
-}
+  width: 60%;
+  margin-left: 20%;
+} 
 
 .header-container {
   height: 200px;
@@ -13,7 +14,7 @@
 .header-left-container > * {
   float: left;
   display: inline;
-  margin: 10px;
+  margin-left: 50px;
   margin-top: 30px;
 }
 
@@ -21,23 +22,24 @@
   float: right;
   display: inline;
   width: 25%;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .main-section-container > * {
   height: 900px;
   display: inline-block;
-  width: 70%;
+  width: 50%;
 }
 
 .left-container {
   float: left;
   background-color: #fbfafa;
-  width: 30%;
+  width: 32%;
 }
 
 .right-container {
   background-color: rgb(255, 255, 255);
+  margin-left:5%;;
 }
 
 .profile-info {
@@ -46,16 +48,25 @@
   width: 70%;
 }
 
+
 .profile-info-title > * {
   display: inline-block;
+  padding-bottom:2px;
+  margin:5px;
 }
 
 .interests-title > * {
   display: inline-block;
+  padding-bottom:2px;
+  margin:5px;
+  margin-bottom: 20px;
+
+
 }
 
 .interests-icons > * {
   display: inline-block;
+
 }
 
 .interests-icons i {
@@ -66,7 +77,7 @@
  
 }
 .category{
-  margin:10px;
+  margin:5px;
 }
 
 .interest-circle {
@@ -81,16 +92,39 @@
 
 .reference-title > * {
   display: inline-block;
+  padding-bottom:2px;
+  margin:5px;
+
+
 }
 
 .awards-title > * {
   display: inline-block;
+  padding-bottom:2px;
+  margin:5px;
+
+
+}
+
+
+.circle-briefcase {
+  height: 30px;
+  border-radius: 50%;
+  background-color: #5f6cab;
+  text-align: center;
 }
 
 .circle-briefcase i {
+  margin-top: 5px;
+  margin-right: 10px;
   font-size: 12px;
-  padding-left: 8.5px;
+  padding-left: 10px;
+  padding-top:5px;
+
+  color: white;
 }
+
+
 
 /* timeline */
 
@@ -155,9 +189,8 @@ div.event::after {
 }
 
 .portfolio-boxes {
-  margin-left: 30%;
-  width: 50%;
   margin: 0 auto;
+  margin-left: 60px;
 }
 
 .row-box > * {
