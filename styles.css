@@ -58,6 +58,25 @@
   display: inline-block;
 }
 
+.interests-icons i {
+  font-size: 18px;
+  color:#5f6cab;
+  padding-top: 10px;
+  vertical-align: middle;
+ 
+}
+.category{
+  margin:10px;
+}
+
+.interest-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 5px solid #5f6cab;
+  text-align: center;
+
+}
 
 
 .reference-title > * {
