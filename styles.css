@@ -213,6 +213,7 @@ div.event::after {
   clear: both;
   position: relative;
   height: 60px;
+  margin-top: -50px;
 }
 
 .footer-text {
